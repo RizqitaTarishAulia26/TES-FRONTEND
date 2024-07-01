@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Product Management */
+
+.container-fotomenu{
+position: absolute;
+width: 1042px;
+height: 723px;
+left: 128px;
+top: 87px;
+}
+
+.container-sidebar{
+/* Sidebar */
+
+position: absolute;
+width: 104px;
+height: 834px;
+left: 0px;
+top: 0px;
+
+}
+
+.background{
+    background-color: #252836}
+
+.judul{
+   /* Settings */
+
+position: absolute;
+width: 104px;
+height: 39px;
+left: 128px;
+top: 24px;
+
+/* Heading/H1 */
+font-family: "Barlow";
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+/* or 39px */
+
+/* White */
+color: #FFFFFF;
+
+ 
+}
+
+.container-settings{
+
+/* Settings */
+
+position: absolute;
+width: 104px;
+height: 39px;
+left: 128px;
+top: 24px;
+
+/* Heading/H1 */
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+/* or 39px */
+
+/* White */
+color: #FFFFFF;
+
+
+}
+
+.container-dashboard{
+    /* Column 1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 646px;
+height: 786px;
+left: 128px;
+top: 24px;
+
+
+}
+
+.container-ket{
+    /* Column 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 372px;
+height: 783.88px;
+left: 798px;
+top: 24px;
+
+
+}
+
